@@ -1,11 +1,4 @@
-let productos=[200,150,500,120,300]
-
-const min = Math.min(...productos);
-
-const index = productos.indexOf(min);
-
-if (index > -1) {
-  productos.splice(index, 1);
-}
-productos.splice(400, 160,);
-console.log(productos); 
+let edades =[80,18,25,68,50,90,16,30]
+//intentando recorrer el array con for eache y agregarlo en let a que esta vacio para filtar entre los jubilados que trabajan y no trabajan
+edades.forEach((element) => console.log(element));
+let a =[]
